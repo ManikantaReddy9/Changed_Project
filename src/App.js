@@ -10,7 +10,7 @@ import React from 'react'
  
 const App = () => {
   return (
-    <div className="app-container">
+    <div className="min-h-screen overflow-hidden">
       <Navbar />
       <Hero />
       <SyntheticDollar />
