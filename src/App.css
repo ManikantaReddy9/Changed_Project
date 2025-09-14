@@ -5,13 +5,11 @@
   box-sizing: border-box;
 }
 
-/* App container */
 .app-container {
   width: 100%;
-  max-width: 1440px; /* prevents stretching too wide */
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 16px; /* space on sides for mobile */
-  font-family: Arial, sans-serif;
+  padding: 0 16px;
 }
 
 /* Ensure images & videos scale */

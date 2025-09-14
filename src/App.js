@@ -8,19 +8,18 @@ import RolesDiagram from "./components/RolesDiagram";
 import SyntheticDollar from "./components/SyntheticDollar";
 import React from 'react'
  
- const App = () => {
-   return (
-     <div className="app-container">
-       <Navbar />
-       <Hero />
-       <SyntheticDollar />
-       <CreditSlides />
-       <RolesDiagram />
-       <ChooseEfficiency />
-       <Footer />
-     </div>
-   )
- }
+const App = () => {
+  return (
+    <div className="app-container">
+      <Navbar />
+      <Hero />
+      <SyntheticDollar />
+      <CreditSlides />
+      <RolesDiagram />
+      <ChooseEfficiency />
+      <Footer />
+    </div>
+  )
+}
  
- export default App
- 
+export default App
