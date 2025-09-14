@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes waveMotion {
+  0% {
+    transform: translateX(0);
+    opacity: 0.3; /* Start with some opacity */
+  }
+  50% {
+    transform: translateX(10px); /* Move slightly right */
+    opacity: 0.5; /* Fade in slightly */
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0.3; /* Return to original and fade out slightly */
+  }
+}
+
+/* Define another wave animation for a different effect */
+@keyframes waveMotion2 {
+  0% {
+    transform: translateY(0);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-5px); /* Move slightly up */
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.3;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.7s ease-in-out;
+}
+
+
+
+
+
+
+
